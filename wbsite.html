@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+<title> Admin Panel</title>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<link rel="stylesheet" href="wbsitec.css">
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<div class="container">
+
+<div class="navbar">
+
+<img src="Adsız.png" alt="" class="logo"> <!-- Logo Kısmı -->
+
+<nav> <!-- Menu Kısmı -->
+<ul id="menuList">
+<li>
+<a href="">  <span style="color: red; ">Anasayfa</span> </a>
+</li>
+<li>
+<a href=""> Hakkımda </a>
+</li>
+<li>
+<a href=""> Portföy </a>
+</li>
+<li>
+<a href=""> İletişim </a>
+</li>
+</ul>
+</nav> <!-- Nav Burada Bitiyor-->
+<div class="contact">
+<ul>
+<li><a href="">+905000000000-  </a></li>
+<li><a href="">fakemail@gmail.com-</a></li>
+</ul>
+</div>
+<img src="menu.png" alt="" class="menu-ıcon" 
+onclick="togglemenu()">
+
+</div> <!-- Navbar Burada Bitiyor -->
+
+
+
+<div class="row">
+<div class="col-1">
+<h2>Merhabalar <br> ben Kadir ALİ </h2>
+<h3> Developer & Tasarımcı </h3>
+<button type="button"> Projeni Anlat <img src="arrow.png" alt=""></button>
+</div>
+<div class="col-2">
+
+<img src="lol.jpg" class="controller">
+
+<div class="color-box">
+
+</div>
+</div>
+</div>
+<div class="social-links">
+<ul>
+    <li><a href=""> <i class='bx bxl-github'></i></a></li>
+    <li><a href=""> <i class='bx bxl-instagram bx-rotate-270' style='color:#ce47c8'  ></i></a></li>
+    <li><a href=""> <i class='bx bxl-twitter' style='color:#60f4f9'  ></i></a></li>
+    <li><a href=""> <i class='bx bxl-youtube' style='color:#fb1a05'  ></i></a></li>
+</ul>
+</div>
+</div> <!-- Javascript -->
+<script>
+var menuList = document.getElementById("menuList");
+
+menuList.style.maxHeight = "0px";
+
+function togglemenu() {
+
+    if(menuList.style.maxHeight == "0px") 
+   
+    {
+        menuList.style.maxHeight = "130px";
+    }
+   
+    else {
+        menuList.style.maxHeight ="0px";
+    }
+
+}
+
+
+
+</script>
+</body>
+</html>
